@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer Boom Shakalaka</title>
+    <link rel="stylesheet" href="timer.css" />
+  </head>
+  <body>
+    <div class="container-start">
+      <div class="opening">
+        <h1 class="tile">T</h1>
+        <h1 class="tile">I</h1>
+        <h1 class="tile">M</h1>
+        <h1 class="tile">E</h1>
+        <h1 class="tile">R</h1>
+      </div>
+      <button class="start">Mulai</button>
+    </div>
+
+    <div class="container hidden">
+      <div class="wrapper">
+        <h1 class="title">Timer boom 🔥</h1>
+        <div class="input-content">
+            <input type="number" name="amount1" id="amount1" class="insert" placeholder="Menit">
+            <input type="number" name="amount2" id="amount2" class="insert" placeholder="Detik">
+          <button class="btn">Insert</button>
+        </div>
+        <div class="timer-content">
+          <h2 class="menit">00</h2>
+          :
+          <h2 class="detik">00</h2>
+        </div>
+        <div class="content">
+          <button class="stopButton">Stop</button>
+          <button class="resetButton">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="timer.js"></script>
+  </body>
+</html>
